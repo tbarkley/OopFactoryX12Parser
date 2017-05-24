@@ -75,8 +75,6 @@
     <EmbeddedResource Include="Claims\TestData\InstitutionalClaim4010.txt" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Eligibility\TestData\_271\_5010\TB_TEST_BCBS.txt" />
-    <EmbeddedResource Include="Eligibility\TestData\_271\_5010\TB_TEST.txt" />
     <EmbeddedResource Include="Eligibility\TestData\_271\_5010\ValidationForDependentBenefitInfo.txt" />
     <EmbeddedResource Include="Eligibility\TestData\_271\_5010\ValidationForDependentName.txt" />
     <EmbeddedResource Include="Eligibility\TestData\_271\_5010\ValidationForSource.txt" />
