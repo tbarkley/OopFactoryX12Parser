@@ -14,6 +14,7 @@ namespace OopFactory.X12.Hipaa.Common
             if (Identifications == null) Identifications = new List<Identification>();
             if (Contacts == null) Contacts = new List<Contact>();
             if (RequestValidations!=null) RequestValidations = new List<RequestValidation>();
+            //if (SubscriberTraceNumbers == null) SubscriberTraceNumbers = new List<TraceNumber>();
         }
 
         public EntityName Name { get; set; }
@@ -21,6 +22,9 @@ namespace OopFactory.X12.Hipaa.Common
 
         [XmlElement(ElementName="Identification")]
         public List<Identification> Identifications { get; set; }
+
+        //[XmlElement(ElementName = "TraceNumber")]
+        //public List<TraceNumber> SubscriberTraceNumbers { get; set; }
 
         protected string GetReferenceId(string qualifier)
         {

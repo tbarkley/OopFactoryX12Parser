@@ -39,8 +39,6 @@ namespace OopFactory.X12.Hipaa.Common
         }
         #endregion
 
-
-
         [XmlAttribute]
         public string MemberId
         {

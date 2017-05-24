@@ -127,14 +127,14 @@ namespace OopFactory.X12.Hipaa.Tests.Unit.Eligibility
         [TestMethod]
         public void Transform5010ToModel1Test()
         {
-            var responses = TransformToModel("OopFactory.X12.Hipaa.Tests.Unit.Eligibility.TestData._271._5010.Example_3_1_2.txt");
+            var responses = TransformToModel("OopFactory.X12.Hipaa.Tests.Unit.Eligibility.TestData._271._5010.TB_TEST.txt");
             Trace.Write(responses.Serialize());
         }
 
         [TestMethod]
         public void Transform5010ToModel2Test()
         {
-            var responses = TransformToModel("OopFactory.X12.Hipaa.Tests.Unit.Eligibility.TestData._271._5010.Example_3_2_2.txt");
+            var responses = TransformToModel("OopFactory.X12.Hipaa.Tests.Unit.Eligibility.TestData._271._5010.TB_TEST_BCBS.txt");
             Trace.Write(responses.Serialize());
         }
 

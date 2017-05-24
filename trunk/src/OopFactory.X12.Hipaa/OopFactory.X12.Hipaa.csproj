@@ -102,6 +102,7 @@
     <Compile Include="Common\QualifiedDate.cs" />
     <Compile Include="Common\QualifiedDateRange.cs" />
     <Compile Include="Common\SubscriberInformation.cs" />
+    <Compile Include="Common\TraceNumber.cs" />
     <Compile Include="Eligibility\EligibilityBenefitAdditionalInformation.cs" />
     <Compile Include="Eligibility\EligibilityBenefitInformation.cs" />
     <Compile Include="Eligibility\EligibilityBenefitDocument.cs" />
